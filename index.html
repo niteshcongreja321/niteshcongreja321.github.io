@@ -1,0 +1,632 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Facebook Marketplace Alerts App — Instant Deal Notifications | Zoopy</title>
+  <meta name="description" content="Zoopy sends Facebook Marketplace alerts to your lock screen in as little as 15 seconds — with instant valuations and scam filtering. Never miss the listings you care about.">
+  <link rel="canonical" href="https://niteshcongreja321.github.io/">
+  <link rel="icon" href="/assets/icon.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <meta name="theme-color" content="#0b0b10">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Zoopy — Never miss the listings you care about">
+  <meta property="og:description" content="New Facebook Marketplace listings hit your lock screen in as little as 15 seconds. Instant valuations tell you when it's a steal.">
+  <meta property="og:url" content="https://niteshcongreja321.github.io/">
+  <meta property="og:image" content="https://niteshcongreja321.github.io/assets/icon.png">
+  <meta name="twitter:card" content="summary">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="/tokens.css">
+  <link rel="stylesheet" href="/landing.css">
+  <link rel="preload" as="image" href="/assets/shots/radar.webp" type="image/webp">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Zoopy",
+    "operatingSystem": "iOS, Android",
+    "applicationCategory": "ShoppingApplication",
+    "description": "Zoopy monitors public Facebook Marketplace listings around the clock and sends lock-screen alerts in as little as 15 seconds, with instant valuations, scam filtering and price-drop tracking.",
+    "offers": { "@type": "Offer", "price": "36.99", "priceCurrency": "AUD", "category": "subscription" },
+    "url": "https://niteshcongreja321.github.io/"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type": "Question", "name": "How does Zoopy work?", "acceptedAnswer": {"@type": "Answer", "text": "Create a hunt with your keywords, price range and location. Zoopy monitors public Facebook Marketplace listings around the clock — as often as every 15 seconds — and pushes a lock-screen alert with photo, price, distance and an instant valuation the moment a match goes live."}},
+      {"@type": "Question", "name": "Does Zoopy need my Facebook password?", "acceptedAnswer": {"@type": "Answer", "text": "No. Zoopy only monitors public Facebook Marketplace listings — you never hand over your Facebook login, and nothing is posted or messaged on your behalf. When you want to contact a seller, Zoopy opens the listing in Facebook and you message them yourself."}},
+      {"@type": "Question", "name": "How quickly are alerts sent?", "acceptedAnswer": {"@type": "Answer", "text": "Zoopy has five check speeds, from every 15 minutes on Relaxed down to every 15 seconds on Turbo — fast enough to message a seller before most buyers have even seen the listing."}},
+      {"@type": "Question", "name": "Can I monitor multiple searches at once?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — every hunt runs in parallel with its own keywords, filters, location and check speed. Plans include up to 7 hunts on Go, 16 on Pro and 22 on Max."}},
+      {"@type": "Question", "name": "Why are Facebook Marketplace notifications late or not working?", "acceptedAnswer": {"@type": "Answer", "text": "Facebook batches saved-search notifications with all other notification types, so they often arrive hours late or never. A dedicated monitoring app like Zoopy checks continuously and alerts within seconds instead."}},
+      {"@type": "Question", "name": "Can I get alerts for cars on Facebook Marketplace?", "acceptedAnswer": {"@type": "Answer", "text": "Yes — Zoopy has a dedicated vehicle hunt path with make, model, year and kilometre filters, and automatically hides dealers, damaged, salvage and written-off stock."}},
+      {"@type": "Question", "name": "Does Zoopy track price drops on listings I'm watching?", "acceptedAnswer": {"@type": "Answer", "text": "Shortlist any listing and Zoopy keeps watching it — you get alerts for price drops, pending status and sold status automatically."}},
+      {"@type": "Question", "name": "Is there a free version of Zoopy?", "acceptedAnswer": {"@type": "Answer", "text": "Zoopy is a paid subscription — running thousands of marketplace checks a day for you isn't free to operate. Every monthly plan starts with a 7-day free trial; plans start at $36.99 AUD/month and come in monthly, 3-month and 6-month terms with cancellation anytime through the App Store or Google Play."}},
+      {"@type": "Question", "name": "Which countries does Zoopy support?", "acceptedAnswer": {"@type": "Answer", "text": "Zoopy is a global Facebook Marketplace alert app — hunt by any city or area with a radius, local price context, and filters for dealers, damaged and salvage stock wherever Marketplace runs."}}
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <header class="nav" id="top">
+    <div class="wrap bar">
+      <a class="brand" href="/">
+        <img src="/assets/icon.png" alt="Zoopy app icon — Zip the fennec fox mascot" width="32" height="32">
+        Zoopy
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#features">Features</a>
+        <a href="#how">How it works</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a href="/guides/">Guides</a>
+        <a class="nav-cta" href="#download">Get the app</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ── Hero ─────────────────────────────────────────────────────── -->
+    <section class="hero" aria-labelledby="hero-h">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="blob b1"></div>
+        <div class="blob b2"></div>
+        <div class="blob b3"></div>
+      </div>
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="dot"></span> Monitoring Facebook Marketplace 24/7</span>
+          <h1 id="hero-h">Never miss the <span class="grad">listings you care about</span>.</h1>
+          <p class="sub">
+            Zoopy watches Facebook Marketplace around the clock and pings your
+            lock screen the moment a matching listing goes live — with an instant
+            valuation so you know a steal when you see one.
+          </p>
+          <div class="cta-row">
+            <a class="store-btn" href="#pricing" aria-label="Zoopy on the App Store — coming soon">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.53 4.08ZM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25Z"/></svg>
+              <span class="lines"><span class="tiny">Coming soon on the</span><span class="big">App Store</span></span>
+            </a>
+            <a class="store-btn" href="#pricing" aria-label="Zoopy on Google Play — coming soon">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3.61 1.81 13.79 12 3.6 22.19c-.36-.19-.6-.56-.6-1.04V2.85c0-.48.25-.85.61-1.04Zm11.6 8.77L5.55 1l11.13 6.41-1.47 3.17Zm1.63 3.29 2.94-1.69c.98-.57.98-1.79 0-2.36l-2.94-1.7L14.9 12l1.94 1.87ZM5.55 23l9.66-9.58 1.47 3.17L5.55 23Z"/></svg>
+              <span class="lines"><span class="tiny">Coming soon on</span><span class="big">Google Play</span></span>
+            </a>
+            <a class="btn subtle" href="#solution">Learn more ↓</a>
+          </div>
+          <ul class="chips" role="list" aria-label="Highlights">
+            <li class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> Real-time alerts</li>
+            <li class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> 15-second checks</li>
+            <li class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> Set up in a minute</li>
+            <li class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> No Facebook login</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual">
+          <div class="phone">
+            <img src="/assets/shots/radar.webp" alt="Zoopy radar screen showing freshly caught Facebook Marketplace listings with valuations" width="720" height="1564" fetchpriority="high">
+          </div>
+          <div class="notif n1" role="presentation">
+            <img src="/assets/icon.png" alt="" width="36" height="36">
+            <div>
+              <div class="t">iPhone 13 128gb white</div>
+              <div class="b">$449 · Good buy · est. $150 profit<br>Your city · within 25 km</div>
+            </div>
+            <span class="when">now</span>
+          </div>
+          <div class="notif n2" role="presentation">
+            <img src="/assets/icon.png" alt="" width="36" height="36">
+            <div>
+              <div class="t">2016 Nissan X-Trail</div>
+              <div class="b">$7,500 · Steal · found in 16 s<br>Search: Nissan X-Trail</div>
+            </div>
+            <span class="when">now</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Stats ────────────────────────────────────────────────────── -->
+    <div class="wrap stats" aria-label="Zoopy by the numbers">
+      <div class="stat reveal"><div class="num"><em data-count="15">15</em>&hairsp;s</div><div class="lbl">fastest check speed</div></div>
+      <div class="stat reveal"><div class="num"><em data-count="24">24</em>/7</div><div class="lbl">monitoring, even while you sleep</div></div>
+      <div class="stat reveal"><div class="num"><em data-count="5">5</em></div><div class="lbl">check speeds, Relaxed to Turbo</div></div>
+      <div class="stat reveal"><div class="num"><em data-count="22">22</em></div><div class="lbl">hunts running in parallel on Max</div></div>
+    </div>
+
+    <!-- ── Problem → Solution ───────────────────────────────────────── -->
+    <section class="sec" id="solution" aria-labelledby="solution-h">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <span class="kicker">The problem</span>
+          <h2 id="solution-h">Good listings disappear in minutes.</h2>
+          <p>The best deals on Facebook Marketplace are gone before most people ever see them. Whoever messages first, wins — and it's never the person refreshing by hand.</p>
+        </div>
+        <div class="problem-grid">
+          <div class="problem-card reveal" aria-hidden="true">
+            <span class="tag">Every single day</span>
+            <h3>While you were checking manually…</h3>
+            <p>Facebook's own saved-search notifications arrive hours late — or never. Meanwhile:</p>
+            <div class="gone">
+              <div class="row"><span><s>iPhone 13 · $449</s></span><span class="sold">sold in 8 min</span></div>
+              <div class="row"><span><s>Herman Miller Aeron · $340</s></span><span class="sold">sold in 12 min</span></div>
+              <div class="row"><span><s>2017 Hyundai i30 · $11,200</s></span><span class="sold">sold in 31 min</span></div>
+            </div>
+          </div>
+          <div class="timeline" role="list" aria-label="How Zoopy solves it">
+            <div class="tstep reveal" role="listitem">
+              <div class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></div>
+              <div><h4>1 · Create a hunt</h4><p>Tell Zoopy what you're after — keywords, or a guided path for iPhones and cars.</p></div>
+            </div>
+            <div class="tstep reveal" role="listitem">
+              <div class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 3H2l8 9.46V19l4 2v-8.54L22 3z"/></svg></div>
+              <div><h4>2 · Choose your filters</h4><p>Price range, any suburb plus radius, condition — and auto-hide dealers, damaged and written-off stock.</p></div>
+            </div>
+            <div class="tstep reveal" role="listitem">
+              <div class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 5a7 7 0 0 1 7 7"/><path d="M12 1a11 11 0 0 1 11 11"/></svg></div>
+              <div><h4>3 · Zoopy monitors Marketplace</h4><p>Public listings are checked around the clock — as often as every 15 seconds on Turbo.</p></div>
+            </div>
+            <div class="tstep reveal" role="listitem">
+              <div class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg></div>
+              <div><h4>4 · Get an instant alert</h4><p>Photo, price, distance and a market valuation land on your lock screen the moment a match goes live.</p></div>
+            </div>
+            <div class="tstep win reveal" role="listitem">
+              <div class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+              <div><h4>5 · Message the seller first</h4><p>Tap through, say hello, win the deal — while everyone else is still refreshing.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Features ─────────────────────────────────────────────────── -->
+    <section class="sec" id="features" aria-labelledby="features-h">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <span class="kicker">Features</span>
+          <h2 id="features-h">Everything you need to be first.</h2>
+          <p>Built for buyers, flippers and bargain hunters who are tired of refreshing.</p>
+        </div>
+        <div class="feat-grid">
+          <div class="feat reveal">
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+            <h3>Instant listing alerts</h3>
+            <p>New listing → push notification with photo, price and distance, in as little as 15 seconds.</p>
+          </div>
+          <div class="feat reveal">
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg></div>
+            <h3>Lightning-fast detection</h3>
+            <p>Five check speeds, from every 15 minutes on Relaxed down to every 15 seconds on Turbo.</p>
+          </div>
+          <div class="feat reveal">
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
+            <h3>Instant valuations</h3>
+            <p>Every catch is priced against comparable listings — with estimated upside — so you know a steal on sight.</p>
+          </div>
+          <div class="feat reveal">
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 3H2l8 9.46V19l4 2v-8.54L22 3z"/></svg></div>
+            <h3>Powerful filters</h3>
+            <p>Keywords, price bands, condition — plus dedicated vehicle hunts with make, model, year and kms.</p>
+          </div>
+          <div class="feat reveal">
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4.5 8-11a8 8 0 1 0-16 0c0 6.5 8 11 8 11z"/><circle cx="12" cy="11" r="3"/></svg></div>
+            <h3>Any location, any radius</h3>
+            <p>Suburb-level search with a distance radius per hunt — watch your city and your parents' town at once.</p>
+          </div>
+          <div class="feat reveal">
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg></div>
+            <h3>Price-drop &amp; sold tracking</h3>
+            <p>Shortlist a listing and Zoopy keeps watching it — price drops, pending and sold alerts, automatically.</p>
+          </div>
+          <div class="feat reveal">
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 12l2 2 4-4"/><path d="M12 2 4 5v6c0 5.25 3.4 9.74 8 11 4.6-1.26 8-5.75 8-11V5l-8-3z"/></svg></div>
+            <h3>Scam &amp; junk filtering</h3>
+            <p>Dealers, damaged, salvage and written-off stock are hidden automatically — even when it's buried in the description.</p>
+          </div>
+          <div class="feat reveal">
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg></div>
+            <h3>Smart notifications</h3>
+            <p>Alerts carry everything you need to decide in one glance — or fire only when estimated profit clears your threshold.</p>
+          </div>
+          <div class="feat reveal">
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.5 19a4.5 4.5 0 1 0 0-9h-1.8A7 7 0 1 0 4 14.9"/><path d="M12 12v9M8 18l4 3 4-3"/></svg></div>
+            <h3>Runs in the cloud</h3>
+            <p>Monitoring happens on Zoopy's servers, not your phone — no battery drain, nothing missed while the app is closed.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── App showcase ─────────────────────────────────────────────── -->
+    <section class="sec" id="showcase" aria-labelledby="showcase-h">
+      <div class="sec-head wrap reveal">
+        <span class="kicker">The app</span>
+        <h2 id="showcase-h">From listed to your lock screen in seconds.</h2>
+        <p>Set up a hunt once. Zoopy does the refreshing forever.</p>
+      </div>
+      <div class="showcase-rail" tabindex="0" aria-label="Zoopy app screenshots, scroll horizontally">
+        <figure class="reveal">
+          <div class="phone"><img src="/assets/shots/lockscreen.webp" alt="Zoopy lock-screen alert for a new Facebook Marketplace listing, seconds after posting" width="720" height="1564" loading="lazy"></div>
+          <figcaption><strong>Alerts in seconds</strong><span>Photo, price, distance &amp; profit</span></figcaption>
+        </figure>
+        <figure class="reveal">
+          <div class="phone"><img src="/assets/shots/radar.webp" alt="Zoopy radar feed of personalised Facebook Marketplace catches" width="720" height="1564" loading="lazy"></div>
+          <figcaption><strong>Your deal radar</strong><span>Every catch in one feed</span></figcaption>
+        </figure>
+        <figure class="reveal">
+          <div class="phone"><img src="/assets/shots/hunts.webp" alt="Zoopy hunts screen with saved Facebook Marketplace searches checked every minute" width="720" height="1564" loading="lazy"></div>
+          <figcaption><strong>Hunts on autopilot</strong><span>Each with its own pace</span></figcaption>
+        </figure>
+        <figure class="reveal">
+          <div class="phone"><img src="/assets/shots/hunt-pace.webp" alt="Choosing a check speed in Zoopy, from every 15 minutes down to every 15 seconds" width="720" height="1564" loading="lazy"></div>
+          <figcaption><strong>Pick your pace</strong><span>Relaxed to Turbo (15 s)</span></figcaption>
+        </figure>
+        <figure class="reveal">
+          <div class="phone"><img src="/assets/shots/listing.webp" alt="Zoopy listing page showing an instant valuation of a Facebook Marketplace item against market price" width="720" height="1564" loading="lazy"></div>
+          <figcaption><strong>Instant valuations</strong><span>Worth vs asking, at a glance</span></figcaption>
+        </figure>
+        <figure class="reveal">
+          <div class="phone"><img src="/assets/shots/shortlist.webp" alt="Zoopy shortlist tracking Facebook Marketplace price drops and sold status" width="720" height="1564" loading="lazy"></div>
+          <figcaption><strong>Shortlist &amp; track</strong><span>Price-drop and sold alerts</span></figcaption>
+        </figure>
+        <figure class="reveal">
+          <div class="phone"><img src="/assets/shots/hunt-where.webp" alt="Setting a suburb and search radius for a Facebook Marketplace hunt in Zoopy" width="720" height="1564" loading="lazy"></div>
+          <figcaption><strong>Anywhere in AU</strong><span>Suburb + radius per hunt</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ── How it works ─────────────────────────────────────────────── -->
+    <section class="sec" id="how" aria-labelledby="how-h">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <span class="kicker">How it works</span>
+          <h2 id="how-h">Four steps. About a minute.</h2>
+        </div>
+        <div class="steps">
+          <div class="step reveal">
+            <div class="n">1</div>
+            <h3>Choose what you're looking for</h3>
+            <p>Type keywords, or use the guided paths for iPhones and cars with model-aware filters.</p>
+          </div>
+          <div class="step reveal">
+            <div class="n">2</div>
+            <h3>Set your filters</h3>
+            <p>Price range, suburb and radius, check speed — and what to hide automatically.</p>
+          </div>
+          <div class="step reveal">
+            <div class="n">3</div>
+            <h3>Zoopy monitors continuously</h3>
+            <p>Around the clock, in the cloud, at the pace you chose — down to every 15 seconds.</p>
+          </div>
+          <div class="step reveal">
+            <div class="n">4</div>
+            <h3>Get notified instantly</h3>
+            <p>A rich alert lands the moment a match appears. Tap through and message the seller first.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Why Zoopy ────────────────────────────────────────────────── -->
+    <section class="sec" id="why" aria-labelledby="why-h">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <span class="kicker">Why Zoopy</span>
+          <h2 id="why-h">Stop refreshing. Start catching.</h2>
+          <p>Manual refreshing is a part-time job with terrible odds. Zoopy turns it into a push notification.</p>
+        </div>
+        <div class="compare">
+          <div class="col manual reveal">
+            <h3>😮‍💨 Refreshing by hand</h3>
+            <ul>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg> Hours lost scrolling every week</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg> Deals gone before you even open the app</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg> Nothing happens while you sleep or work</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg> Facebook alerts arrive hours late, or never</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg> No idea if a price is actually good</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg> Wading through dealers, scams and write-offs</li>
+            </ul>
+          </div>
+          <div class="col zoopy reveal">
+            <h3><img src="/assets/icon.png" alt="" width="26" height="26"> With Zoopy</h3>
+            <ul>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> Saves hours every week — it's automatic</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> Alerted within seconds of a listing going live</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> Watches 24/7, even while you sleep</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> You're first in the seller's inbox</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> Every catch valued against the market</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> Scams, dealers and write-offs filtered out</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Product facts (no fabricated testimonials — copy rule) ──── -->
+    <section class="sec" id="loved" aria-labelledby="loved-h">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <span class="kicker">What you get</span>
+          <h2 id="loved-h">Built for the race, not the scroll.</h2>
+          <p>True product facts — not invented reviews. Zoopy watches public Marketplace listings so you can stop staring at your screen all day.</p>
+        </div>
+        <div class="quotes">
+          <figure class="quote reveal">
+            <blockquote>Up to <strong>5,760 checks per day</strong> on Max (one hunt every 15 seconds) — lock-screen push when a match lands.</blockquote>
+            <figcaption><strong>Turbo pace</strong> · Max plan</figcaption>
+          </figure>
+          <figure class="quote reveal">
+            <blockquote><strong>Steal / Good / Fair</strong> verdicts on every alert, with estimated value from recent comps — so you know a deal before you open Facebook.</blockquote>
+            <figcaption><strong>Instant valuation</strong> · every plan</figcaption>
+          </figure>
+          <figure class="quote reveal">
+            <blockquote><strong>No Facebook login.</strong> Zoopy only monitors public listing pages. You message sellers yourself in the Facebook app.</blockquote>
+            <figcaption><strong>Privacy-first</strong> · by design</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Pricing ──────────────────────────────────────────────────── -->
+    <section class="sec" id="pricing" aria-labelledby="pricing-h">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <span class="kicker">Pricing</span>
+          <h2 id="pricing-h">One good catch pays for it.</h2>
+          <p>Every plan includes unlimited lock-screen alerts and a Steal / Good / Fair verdict on every listing. Try any tier free for 7 days on monthly.</p>
+        </div>
+        <div class="plans">
+          <div class="plan reveal">
+            <h3>Go</h3>
+            <p class="for">For casual hunters</p>
+            <div class="price"><span class="amt">$36.99</span><span class="per">AUD / month</span></div>
+            <p class="annual">7-day free trial · or $161.99/6&nbsp;months — <em>save 27%</em></p>
+            <ul>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> <span><strong>7 hunts</strong> running in parallel</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> <span>Checks up to <strong>every 5 minutes</strong></span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> <span>Lock-screen alert the moment a deal lands</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> <span>Steal / Good / Fair verdict on every listing</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> <span>Browse the full listing pool</span></li>
+            </ul>
+            <a class="btn ghost" href="#download">Start with Go</a>
+          </div>
+          <div class="plan featured reveal">
+            <span class="badge">Most popular</span>
+            <h3>Pro</h3>
+            <p class="for">For serious buyers</p>
+            <div class="price"><span class="amt">$114.99</span><span class="per">AUD / month</span></div>
+            <p class="annual">7-day free trial · or $473.99/6&nbsp;months — <em>save 31%</em></p>
+            <ul>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> <span><strong>16 hunts</strong> running in parallel</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> <span>Checks up to <strong>every 30 seconds</strong> — 5 Fast lanes</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> <span>Everything in Go</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> <span>Estimated value &amp; comparables on listings</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> <span>Seller screening &amp; scam flags</span></li>
+            </ul>
+            <a class="btn primary" href="#download">Get Pro</a>
+          </div>
+          <div class="plan reveal">
+            <h3>Max</h3>
+            <p class="for">For flippers &amp; pros</p>
+            <div class="price"><span class="amt">$279.99</span><span class="per">AUD / month</span></div>
+            <p class="annual">7-day free trial · or $953.99/6&nbsp;months — <em>save 43%</em></p>
+            <ul>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> <span><strong>22 hunts</strong> running in parallel</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> <span><strong>Turbo</strong> — checks every 15 seconds, 3 Turbo lanes</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> <span>Everything in Pro</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> <span>Priority alert delivery</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg> <span>Sold-price market tracking</span></li>
+            </ul>
+            <a class="btn ghost" href="#download">Go Max</a>
+          </div>
+        </div>
+        <p class="plans-fine">Monthly, 3-month and 6-month billing available in-app — every monthly plan starts with a 7-day free trial. Cancel anytime through the App&nbsp;Store or Google&nbsp;Play.</p>
+      </div>
+    </section>
+
+    <!-- ── FAQ ──────────────────────────────────────────────────────── -->
+    <section class="sec" id="faq" aria-labelledby="faq-h">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <span class="kicker">FAQ</span>
+          <h2 id="faq-h">Questions, answered.</h2>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>How does Zoopy work?</summary>
+            <div class="a"><p>Create a hunt — keywords, price range, suburb + radius — and Zoopy monitors public Facebook Marketplace listings around the clock, pushing a lock-screen alert with photo, price, distance and an instant valuation the moment a match goes live. <a href="/guides/facebook-marketplace-alerts/">Learn more →</a></p></div>
+          </details>
+          <details>
+            <summary>Does Zoopy need my Facebook password?</summary>
+            <div class="a"><p>No. Zoopy only monitors <strong>public</strong> Marketplace listings — you never hand over your Facebook login, and nothing is ever posted or messaged on your behalf. When you want to contact a seller, Zoopy opens the listing in Facebook and you take it from there.</p></div>
+          </details>
+          <details>
+            <summary>How quickly are alerts sent?</summary>
+            <div class="a"><p>You choose from five check speeds: every 15 minutes (Relaxed), 5 minutes, 60 seconds, 30 seconds, or 15 seconds (Turbo). On hot items, seconds decide who wins. <a href="/guides/how-to-be-first-on-facebook-marketplace/">Learn more →</a></p></div>
+          </details>
+          <details>
+            <summary>Can I monitor multiple searches at once?</summary>
+            <div class="a"><p>Yes — every hunt runs in parallel with its own keywords, filters, location and check speed. Plans include up to 7 hunts on Go, 16 on Pro and 22 on Max.</p></div>
+          </details>
+          <details>
+            <summary>Why are Facebook's own notifications late or missing?</summary>
+            <div class="a"><p>Facebook batches saved-search alerts with every other notification type, so they routinely arrive hours late or never. A dedicated monitor like Zoopy checks continuously and alerts in seconds. <a href="/guides/facebook-marketplace-notifications-not-working/">Learn more →</a></p></div>
+          </details>
+          <details>
+            <summary>Can I get alerts for cars?</summary>
+            <div class="a"><p>Yes — Zoopy's vehicle hunts filter by make, model, year range, kilometres and transmission, and automatically hide dealers, damaged, salvage and written-off stock. <a href="/guides/facebook-marketplace-car-alerts/">Learn more →</a></p></div>
+          </details>
+          <details>
+            <summary>Is there a free version?</summary>
+            <div class="a"><p>Zoopy is a paid subscription — running thousands of Marketplace checks a day on your behalf isn't free to operate. But every monthly plan starts with a <strong>7-day free trial</strong>. Plans start at $36.99 AUD/month, and you can cancel anytime through the App&nbsp;Store or Google&nbsp;Play. One good catch usually pays for months.</p></div>
+          </details>
+          <details>
+            <summary>Which countries are supported?</summary>
+            <div class="a"><p>Zoopy works anywhere Facebook Marketplace is available — free-text city/area search with radius, multi-country city coverage, and filters for dealers, damaged and salvage stock. Local guides (including <a href="/guides/facebook-marketplace-alerts-australia/">Australia</a>) cover market-specific tips.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Guides ───────────────────────────────────────────────────── -->
+    <section class="sec" id="guides" aria-labelledby="guides-h">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <span class="kicker">Guides</span>
+          <h2 id="guides-h">Win more deals on Marketplace.</h2>
+          <p>Playbooks for alerts, flipping, car sniping and price-drop tracking.</p>
+        </div>
+        <div class="guides-grid">
+          <a class="gcard reveal" href="/guides/facebook-marketplace-alerts/">
+            <h3>How to Get Instant Facebook Marketplace Alerts</h3>
+            <p>Why native notifications are slow, and how to get pinged in seconds instead.</p>
+            <span class="more">Read the guide →</span>
+          </a>
+          <a class="gcard reveal" href="/guides/facebook-marketplace-notifications-not-working/">
+            <h3>Marketplace Notifications Not Working? The Fix</h3>
+            <p>Why saved-search alerts arrive hours late — or never — and what to do about it.</p>
+            <span class="more">Read the guide →</span>
+          </a>
+          <a class="gcard reveal" href="/guides/how-to-be-first-on-facebook-marketplace/">
+            <h3>How to Be First to New Listings</h3>
+            <p>The playbook fast buyers use to message sellers within the first minute.</p>
+            <span class="more">Read the guide →</span>
+          </a>
+          <a class="gcard reveal" href="/guides/facebook-marketplace-flipping/">
+            <h3>Flipping on Marketplace: The Complete Guide</h3>
+            <p>Finding margin, valuing fast, and the alert setup serious flippers run.</p>
+            <span class="more">Read the guide →</span>
+          </a>
+          <a class="gcard reveal" href="/guides/facebook-marketplace-car-alerts/">
+            <h3>Car Alerts: Snipe Underpriced Cars</h3>
+            <p>Make/model/year alerts, hiding dealers and write-offs, and moving in minutes.</p>
+            <span class="more">Read the guide →</span>
+          </a>
+          <a class="gcard reveal" href="/guides/find-underpriced-items-facebook-marketplace/">
+            <h3>How to Find Underpriced Items</h3>
+            <p>Spotting mispriced listings with comparable-sales valuations, at alert speed.</p>
+            <span class="more">Read the guide →</span>
+          </a>
+        </div>
+        <p class="cta-note">
+          <a class="btn subtle" href="/guides/">All guides →</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- ── Final CTA ────────────────────────────────────────────────── -->
+    <div class="wrap">
+      <section class="cta-band" id="download" aria-labelledby="cta-h">
+        <img class="zip" src="/assets/icon.png" alt="Zip, the Zoopy mascot" width="84" height="84">
+        <h2 id="cta-h">Never miss another Marketplace deal.</h2>
+        <p>Set up your first hunt in under a minute — Zoopy watches Marketplace so you don't have to.</p>
+        <div class="cta-row cta-row--center">
+          <a class="store-btn" href="#pricing" aria-label="App Store listing coming soon">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.53 4.08ZM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25Z"/></svg>
+            <span class="lines"><span class="tiny">Coming soon ·</span><span class="big">iPhone</span></span>
+          </a>
+          <a class="store-btn" href="#pricing" aria-label="Google Play listing coming soon">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3.61 1.81 13.79 12 3.6 22.19c-.36-.19-.6-.56-.6-1.04V2.85c0-.48.25-.85.61-1.04Zm11.6 8.77L5.55 1l11.13 6.41-1.47 3.17Zm1.63 3.29 2.94-1.69c.98-.57.98-1.79 0-2.36l-2.94-1.7L14.9 12l1.94 1.87ZM5.55 23l9.66-9.58 1.47 3.17L5.55 23Z"/></svg>
+            <span class="lines"><span class="tiny">Coming soon ·</span><span class="big">Android</span></span>
+          </a>
+        </div>
+        <p class="fine">Launching soon · one good catch pays for the subscription.</p>
+      </section>
+    </div>
+  </main>
+
+  <!-- ── Footer ─────────────────────────────────────────────────────── -->
+  <footer class="site">
+    <div class="wrap">
+      <div class="foot-grid">
+        <div class="foot-brand">
+          <a class="brand" href="/">
+            <img src="/assets/icon.png" alt="" width="32" height="32">
+            Zoopy
+          </a>
+          <p>Instant Facebook Marketplace alerts with valuations and scam filtering — worldwide.</p>
+        </div>
+        <div class="foot-col">
+          <h4>Product</h4>
+          <a href="#features">Features</a>
+          <a href="#how">How it works</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#download">Download</a>
+        </div>
+        <div class="foot-col">
+          <h4>Resources</h4>
+          <a href="/guides/">Guides</a>
+          <a href="#faq">FAQ</a>
+          <a href="mailto:zoopy.ops@gmail.com">Support</a>
+          <a href="mailto:zoopy.ops@gmail.com">Contact</a>
+        </div>
+        <div class="foot-col">
+          <h4>Legal</h4>
+          <a href="/privacy/">Privacy Policy</a>
+          <a href="/terms/">Terms of Use</a>
+        </div>
+      </div>
+      <div class="foot-legal">
+        <span>© 2026 Zoopy. All rights reserved.</span>
+        <span>Not affiliated with Meta Platforms, Inc.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+  (function () {
+    var reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    // Sticky nav hairline on scroll
+    var nav = document.querySelector(".nav");
+    var onScroll = function () { nav.classList.toggle("scrolled", window.scrollY > 8); };
+    addEventListener("scroll", onScroll, { passive: true });
+    onScroll();
+
+    // Scroll reveals
+    var revealed = document.querySelectorAll(".reveal");
+    if (reduced || !("IntersectionObserver" in window)) {
+      revealed.forEach(function (el) { el.classList.add("in"); });
+    } else {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); }
+        });
+      }, { rootMargin: "0px 0px -8% 0px", threshold: 0.08 });
+      revealed.forEach(function (el, i) {
+        // Anchor landings (/#pricing etc.) start mid-page: anything already
+        // above the viewport must show instantly or it stays blank.
+        if (el.getBoundingClientRect().bottom < 0) { el.classList.add("in"); return; }
+        el.style.transitionDelay = (i % 4) * 60 + "ms";
+        io.observe(el);
+      });
+    }
+
+    // Stat counters
+    var counters = document.querySelectorAll("[data-count]");
+    if (!reduced && "IntersectionObserver" in window) {
+      var cio = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (!e.isIntersecting) return;
+          cio.unobserve(e.target);
+          var el = e.target, target = +el.dataset.count, t0 = null;
+          function tick(t) {
+            if (!t0) t0 = t;
+            var p = Math.min((t - t0) / 900, 1);
+            el.textContent = Math.round(target * (1 - Math.pow(1 - p, 3)));
+            if (p < 1) requestAnimationFrame(tick);
+          }
+          requestAnimationFrame(tick);
+        });
+      }, { threshold: 0.6 });
+      counters.forEach(function (el) { cio.observe(el); });
+    }
+  })();
+  </script>
+</body>
+</html>

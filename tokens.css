@@ -1,0 +1,28 @@
+/* Zoopy brand tokens — the ONE :root for the whole site.
+   landing.css (landing page) and style.css (guides + legal) both link this
+   first and define no :root of their own, so a visitor crossing from the
+   landing page into a guide sees one canvas, one ink, one accent. Before
+   2026-08-16 the two files carried separate :root blocks that had drifted on
+   8 of 10 shared variables. Values are the landing page's (the more recently
+   tuned set). */
+:root {
+  --canvas: #0b0b10;
+  --surface: #14141b;
+  --surface-raised: #1c1c25;
+  --hairline: #26262f;
+  --hairline-strong: #33333f;
+  --ink: #f4f4f8;
+  --ink-secondary: #a2a2b0;
+  --ink-faint: #6d6d79;
+  --accent: #8b8df7;
+  --accent-strong: #6d6ff0;
+  --accent-deep: #4f46e5;
+  --on-accent: #101024;
+  --deal: #f5c044;
+  --good: #34c98e;
+  --radius-card: 20px;
+  --radius-btn: 14px;
+  --shadow-card: 0 1px 2px rgba(0,0,0,.35), 0 12px 40px -18px rgba(0,0,0,.6);
+  --shadow-pop: 0 20px 70px -20px rgba(79,70,229,.45);
+  color-scheme: dark;
+}
