@@ -1,0 +1,42 @@
+# Zoopy
+
+> Zoopy watches Facebook Marketplace for you and sends a push alert when a new listing matches your hunt, with the price, the distance and a deal verdict.
+
+Zoopy is a phone app (private beta on iPhone; Android next; not yet in the App Store or Google Play). Users make "hunts" (a car, an iPhone or any keywords; a price range; any place in the world plus a radius up to 500 km). Zoopy's servers check Facebook Marketplace's public listings around the clock and send a push alert when a new listing matches. It reads the full listing before alerting. It needs no Facebook login and never posts or messages for the user. Pro and Max hunts can also watch AutoTrader Australia (dealer cars) and Kijiji (Canada).
+
+Facts:
+- Facebook keeps a new listing out of public search for about six to seven minutes after posting, for everyone. In Zoopy's September 2026 tests on car listings around Brisbane, Australia, the typical alert went out about 6.5 minutes after the seller posted.
+- Paces per hunt: Turbo (Max; targets a check about every 15 seconds), and targets of every 3 minutes (Pro, Max), 5 and 10 minutes (all plans). Paces are targets.
+- Plans (Australian dollars a month; 3 and 6-month terms cost less per month; 7-day free trial on monthly plans for new subscribers): Go A$36.99 with 10 hunts; Pro A$114.99 with 21 hunts; Max A$279.99 with 24 hunts.
+- Zoopy is independent and not affiliated with Meta Platforms, Inc. Contact: zoopy.ops@gmail.com.
+
+## Pages
+
+- [Home](https://niteshcongreja321.github.io/): what Zoopy does, how it works, pricing summary, early-access list
+- [Features](https://niteshcongreja321.github.io/features/): every feature and which plan has it, and what Zoopy can't do
+- [Pricing](https://niteshcongreja321.github.io/pricing/): plans, paces, trial and billing
+- [FAQ](https://niteshcongreja321.github.io/faq/): common questions with straight answers
+- [About](https://niteshcongreja321.github.io/about/): who makes Zoopy and how claims are measured
+- [Support](https://niteshcongreja321.github.io/support/): alerts, cancelling, refunds, deleting an account
+
+## Guides
+
+- [How to get Facebook Marketplace alerts](https://niteshcongreja321.github.io/guides/facebook-marketplace-alerts/): How to set up Facebook's own Notify Me alerts on desktop, iPhone and Android, where they fall short, and how an alert app watches your searches for you.
+- [Car alerts on Facebook Marketplace](https://niteshcongreja321.github.io/guides/facebook-marketplace-car-alerts/): Set up Facebook Marketplace alerts for a specific car: make, model, year, kilometres, price, radius and words to hide, with a worked example hunt.
+- [Facebook Marketplace alerts in Australia](https://niteshcongreja321.github.io/guides/facebook-marketplace-alerts-australia/): Set up Marketplace alerts anywhere in Australia: suburb and radius tips, AUD prices, rego and PPSR checks for cars, and the alert options that work here.
+- [Facebook Marketplace notifications not working](https://niteshcongreja321.github.io/guides/facebook-marketplace-notifications-not-working/): Not getting Marketplace alerts or messages? Check these iPhone, Android and Facebook settings in order, and what to try if saved-search alerts still fail.
+- [How to choose a Facebook Marketplace alert app](https://niteshcongreja321.github.io/guides/choose-a-marketplace-alert-app/): What to check before you pay for a Marketplace alert app: how often it checks, radius or per-town searches, what an alert shows, filters, trial and cost.
+- [How to filter out dealers on Facebook Marketplace](https://niteshcongreja321.github.io/guides/facebook-marketplace-filter-out-dealers/): Why Facebook Marketplace has no reliable private-seller filter for cars, ten signs of a dealer listing, and how to keep dealer cars out of your alerts.
+- [Price drop alerts on Facebook Marketplace](https://niteshcongreja321.github.io/guides/facebook-marketplace-price-drop-alerts/): What Facebook tells you when a saved listing's price drops, how reliable that is, how to track prices yourself, and how Zoopy's price-drop alerts work.
+- [How to get to new Marketplace listings sooner](https://niteshcongreja321.github.io/guides/how-to-be-first-on-facebook-marketplace/): Why new Marketplace listings take minutes to appear, and what helps: newest-first searches, tight keywords, alerts and a clear first message. No guarantee.
+- [Flipping on Facebook Marketplace](https://niteshcongreja321.github.io/guides/facebook-marketplace-flipping/): How flipping on Facebook Marketplace works: what sells, how to price a buy, the costs to count, safe pickups, and how to watch for stock without scrolling.
+- [How to find underpriced items on Facebook Marketplace](https://niteshcongreja321.github.io/guides/find-underpriced-items-facebook-marketplace/): Where underpriced listings come from, the searches that surface them (misspellings, vague titles, newest first), and how to check a price before you buy.
+- [How to check if a Marketplace price is fair](https://niteshcongreja321.github.io/guides/facebook-marketplace-fair-price/): How to judge a Facebook Marketplace price: compare recent listings, check sold prices, adjust for age and condition, and know when cheap means risky.
+- [Buying a used car on Facebook Marketplace in Australia](https://niteshcongreja321.github.io/guides/buy-used-car-facebook-marketplace-australia/): A step-by-step checklist for buying a used car from a private seller on Marketplace in Australia: PPSR, rego, roadworthy, inspection, payment and scams.
+- [How to spot written-off and salvage cars on Marketplace](https://niteshcongreja321.github.io/guides/written-off-salvage-cars-facebook-marketplace/): Words and photo clues that point to a written-off, salvage or damaged car on Facebook Marketplace, and the history checks to run in AU, US, UK and Canada.
+- [How to search Facebook Marketplace across a wide area](https://niteshcongreja321.github.io/guides/search-facebook-marketplace-wide-area/): Marketplace searches one place and radius at a time. How to cover a whole region, state or country, with worked Australian, Canadian and US examples.
+- [Facebook Marketplace saved searches](https://niteshcongreja321.github.io/guides/facebook-marketplace-saved-searches/): Where Facebook Marketplace keeps saved searches and alerts, how to edit or delete them on iPhone, Android and desktop, and what to do when one won't go.
+- [Facebook Marketplace search tips](https://niteshcongreja321.github.io/guides/facebook-marketplace-search-tips/): Better Marketplace searches: sort by newest, set the right radius and price, and what our tests found about quotes, minus words and misspellings.
+- [AutoTrader Australia alerts](https://niteshcongreja321.github.io/guides/autotrader-australia-alerts/): How saved searches and watchlist alerts work on AutoTrader Australia, what they cover, and how to see its dealer cars next to Marketplace private sales.
+- [Kijiji alerts](https://niteshcongreja321.github.io/guides/kijiji-alerts/): How Kijiji's saved-search alerts work, why they can feel slow, and how to watch Kijiji and Facebook Marketplace listings together in Canada.
+- [Facebook Marketplace scams: red flags for buyers](https://niteshcongreja321.github.io/guides/facebook-marketplace-scams/): Buyer red flags on Facebook Marketplace: deposits for unseen items, fake payment and courier links, PayID tricks, cloned ads, and where to report a scam.

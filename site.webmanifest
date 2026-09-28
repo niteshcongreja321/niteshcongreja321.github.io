@@ -1,0 +1,14 @@
+{
+  "name": "Zoopy: Facebook Marketplace alerts",
+  "short_name": "Zoopy",
+  "description": "Push alerts for new Facebook Marketplace listings that match your hunt.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf9f6",
+  "theme_color": "#4f46e5",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
