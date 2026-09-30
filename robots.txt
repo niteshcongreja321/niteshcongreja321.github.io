@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://zoopy-app.vercel.app/sitemap.xml
